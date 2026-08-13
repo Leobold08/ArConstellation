@@ -30,6 +30,12 @@ public class CelestialManager : MonoBehaviour
                                           //this is just for having an accurate text date
     public int numberOfDaysFromNow = 0;   //If you want to start from another than today
 
+    private float brightestMagnitude = -1.44f;
+    private float dimmestMagnitude = 6.59f;
+
+    public float brightestScale = 3f;
+    public float dimmestScale = 0.5f;
+
     public TMP_Text dateText;
     //Prefabs for celestial objects
     public GameObject moonPrefab;
@@ -56,7 +62,7 @@ public class CelestialManager : MonoBehaviour
     void Start()
     {
         starsParent = GameObject.Find("Stars");
-        starsDatabase = Resources.Load<TextAsset>("hyg_small") as TextAsset;
+        starsDatabase = Resources.Load<TextAsset>("hygdata_short") as TextAsset;
         currentDate = DateTime.UtcNow.AddDays(numberOfDaysFromNow);
         SetupStars();
     }
@@ -187,6 +193,13 @@ public class CelestialManager : MonoBehaviour
 
         //Set properties to the struct
         so.gameObject = Instantiate(starPrefab, pos, Quaternion.identity);
+        float scale = Mathf.Lerp(
+        brightestScale,
+        dimmestScale,
+        Mathf.InverseLerp(brightestMagnitude, dimmestMagnitude, _mag)
+        );
+
+        so.gameObject.transform.localScale = Vector3.one * scale;
         so.name = _name;
         so.ra = _ra;
         so.dec = _dec;
