@@ -893,6 +893,12 @@ MonoBehaviour:
   numberOfDaysFromNow: 0
   brightestScale: 5
   dimmestScale: 0.5
+  baseStarDistance: 1000
+  closestStarOffset: -400
+  furthestStarOffset: 200
+  nearStarDistance: 200
+  middleStarDistance: 900
+  farStarDistance: 1000
   dateText: {fileID: 0}
   moonPrefab: {fileID: 0}
   sunPrefab: {fileID: 0}

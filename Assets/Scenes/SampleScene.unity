@@ -1172,6 +1172,22 @@ PrefabInstance:
       value: 0.0002
       objectReference: {fileID: 0}
     - target: {fileID: 2634763560154675029, guid: 32a1f8fcf3e15e14fb82469bf9890ea4, type: 3}
+      propertyPath: farStarDistance
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2634763560154675029, guid: 32a1f8fcf3e15e14fb82469bf9890ea4, type: 3}
+      propertyPath: closestStarOffset
+      value: -400
+      objectReference: {fileID: 0}
+    - target: {fileID: 2634763560154675029, guid: 32a1f8fcf3e15e14fb82469bf9890ea4, type: 3}
+      propertyPath: furthestStarOffset
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2634763560154675029, guid: 32a1f8fcf3e15e14fb82469bf9890ea4, type: 3}
+      propertyPath: middleStarDistance
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 2634763560154675029, guid: 32a1f8fcf3e15e14fb82469bf9890ea4, type: 3}
       propertyPath: planetsMinMaxRadius.x
       value: 1
       objectReference: {fileID: 0}
