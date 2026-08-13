@@ -15,6 +15,7 @@ public struct PlanetObject{
 
 public struct StarObject{
     public GameObject gameObject;
+    public string id;
     public string name;
     public float ra;
     public float dec;
@@ -67,6 +68,139 @@ public class CelestialManager : MonoBehaviour
         SetupStars();
     }
 
+
+
+
+
+    private bool StarsIntersect(GameObject a, GameObject b)
+{
+    Renderer rendererA = a.GetComponent<Renderer>();
+    Renderer rendererB = b.GetComponent<Renderer>();
+
+    if (rendererA == null || rendererB == null)
+        return false;
+
+    return rendererA.bounds.Intersects(rendererB.bounds);
+}
+
+
+
+    //-----
+        
+        [ContextMenu("Generate Star Collision Report")]
+    public void GenerateStarCollisionReport()
+    {
+        if (stars == null || stars.Count == 0)
+        {
+            Debug.LogWarning("CelestialManager: No stars have been loaded.");
+            return;
+        }
+
+        // A collision cluster is a group of stars where every star is
+        // connected to another star through one or more intersections.
+        List<List<int>> collisionClusters = new List<List<int>>();
+        bool[] visited = new bool[stars.Count];
+
+        for (int i = 0; i < stars.Count; i++)
+        {
+            if (visited[i])
+                continue;
+
+            List<int> cluster = new List<int>();
+            Queue<int> queue = new Queue<int>();
+
+            queue.Enqueue(i);
+            visited[i] = true;
+
+            while (queue.Count > 0)
+            {
+                int current = queue.Dequeue();
+                bool currentHasCollision = false;
+
+                for (int j = 0; j < stars.Count; j++)
+                {
+                    if (current == j || visited[j])
+                        continue;
+
+                    if (StarsIntersect(stars[current].gameObject, stars[j].gameObject))
+                    {
+                        currentHasCollision = true;
+                        visited[j] = true;
+                        queue.Enqueue(j);
+                    }
+                }
+
+                if (currentHasCollision || cluster.Count > 0)
+                    cluster.Add(current);
+            }
+
+            // A single isolated star isn't a collision.
+            if (cluster.Count > 1)
+                collisionClusters.Add(cluster);
+        }
+
+        string path = System.IO.Path.Combine(
+            Application.dataPath,
+            "Scripts",
+            "star_collision_report.txt"
+        );
+
+        using (System.IO.StreamWriter writer = new System.IO.StreamWriter(path, false))
+        {
+            writer.WriteLine("STAR COLLISION REPORT");
+            writer.WriteLine("=====================");
+            writer.WriteLine();
+            writer.WriteLine("Generated: " + DateTime.Now);
+            writer.WriteLine("Total stars: " + stars.Count);
+            writer.WriteLine("Collision groups: " + collisionClusters.Count);
+            writer.WriteLine();
+
+            foreach (List<int> cluster in collisionClusters)
+            {
+                int keepIndex = cluster[0];
+
+                // Find the largest star in this collision group.
+                foreach (int index in cluster)
+                {
+                    float currentScale = stars[index].gameObject.transform.localScale.x;
+                    float keepScale = stars[keepIndex].gameObject.transform.localScale.x;
+
+                    if (currentScale > keepScale)
+                        keepIndex = index;
+                }
+
+                writer.WriteLine("COLLISION GROUP");
+                writer.WriteLine("----------------");
+
+                writer.WriteLine(
+                    "KEEP: ID=" + stars[keepIndex].id +
+                    " Name=" + stars[keepIndex].name +
+                    " Scale=" + stars[keepIndex].gameObject.transform.localScale.x.ToString("F3")
+                );
+
+                foreach (int index in cluster)
+                {
+                    if (index == keepIndex)
+                        continue;
+
+                    writer.WriteLine(
+                        "DELETE: ID=" + stars[index].id +
+                        " Name=" + stars[index].name +
+                        " Scale=" + stars[index].gameObject.transform.localScale.x.ToString("F3")
+                    );
+                }
+
+                writer.WriteLine();
+            }
+        }
+
+        Debug.Log(
+            "CelestialManager: Star collision report generated at:\n" + path
+        );
+    }
+
+
+    //-----
     void Update()
     {
         //Update time
@@ -157,7 +291,7 @@ public class CelestialManager : MonoBehaviour
                 continue;
             }
 
-            InstantiateStar(ra, dec, mag, data[6]);
+            InstantiateStar(data[0], ra, dec, mag, data[6]);
             loadedCount++;
         }
 
@@ -182,7 +316,7 @@ public class CelestialManager : MonoBehaviour
         co.gameObject.transform.SetParent(planetsParent.transform);
     }
 
-    void InstantiateStar(float _ra, float _dec, float _mag, string _name){
+    void InstantiateStar(string _id, float _ra, float _dec, float _mag, string _name){
         StarObject so;
         
         //Get the altitude and azimuth of the star
@@ -203,7 +337,17 @@ public class CelestialManager : MonoBehaviour
         so.name = _name;
         so.ra = _ra;
         so.dec = _dec;
-        if(_name != "") so.gameObject.name = _name;
+        so.id = _id;
+     
+        if (!string.IsNullOrWhiteSpace(_name))
+        {
+            so.gameObject.name = _name;
+        }
+        else
+        {
+            so.gameObject.name = "Star_" + _id;
+        }
+
         so.gameObject.transform.SetParent(starsParent.transform);
 
         //Change the luminosity of the material according to the star's magnitude

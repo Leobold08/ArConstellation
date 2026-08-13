@@ -1,0 +1,661 @@
+STAR COLLISION REPORT
+=====================
+
+Generated: 8/13/2026 5:40:12 PM
+Total stars: 9880
+Collision groups: 130
+
+COLLISION GROUP
+----------------
+KEEP: ID=71456 Name=Rigil Kentaurus Scale=4.199
+DELETE: ID=71453 Name=Toliman Scale=3.436
+
+COLLISION GROUP
+----------------
+KEEP: ID=24549 Name=Capella Scale=4.148
+DELETE: ID=118360 Name= Scale=3.655
+
+COLLISION GROUP
+----------------
+KEEP: ID=36744 Name=Castor Scale=3.308
+DELETE: ID=118485 Name= Scale=2.596
+
+COLLISION GROUP
+----------------
+KEEP: ID=42794 Name=Alsephina Scale=3.111
+DELETE: ID=118562 Name= Scale=1.391
+
+COLLISION GROUP
+----------------
+KEEP: ID=65173 Name=Mizar Scale=2.943
+DELETE: ID=118887 Name= Scale=1.979
+
+COLLISION GROUP
+----------------
+KEEP: ID=83755 Name=Sabik Scale=2.831
+DELETE: ID=119131 Name= Scale=2.288
+
+COLLISION GROUP
+----------------
+KEEP: ID=78580 Name=Acrab Scale=2.758
+DELETE: ID=78581 Name= Scale=1.447
+
+COLLISION GROUP
+----------------
+KEEP: ID=59016 Name= Scale=2.747
+DELETE: ID=58994 Name= Scale=1.694
+
+COLLISION GROUP
+----------------
+KEEP: ID=52268 Name= Scale=2.658
+DELETE: ID=52219 Name= Scale=1.526
+
+COLLISION GROUP
+----------------
+KEEP: ID=61748 Name=Porrima Scale=2.658
+DELETE: ID=118838 Name= Scale=2.220
+
+COLLISION GROUP
+----------------
+KEEP: ID=26176 Name=Hatysa Scale=2.652
+DELETE: ID=26134 Name= Scale=1.514
+DELETE: ID=26132 Name= Scale=1.016
+
+COLLISION GROUP
+----------------
+KEEP: ID=72396 Name=Zubenelgenubi Scale=2.652
+DELETE: ID=72377 Name= Scale=1.307
+
+COLLISION GROUP
+----------------
+KEEP: ID=81444 Name= Scale=2.618
+DELETE: ID=119106 Name= Scale=1.167
+
+COLLISION GROUP
+----------------
+KEEP: ID=62925 Name=Cor Caroli Scale=2.573
+DELETE: ID=62921 Name= Scale=1.049
+
+COLLISION GROUP
+----------------
+KEEP: ID=82263 Name=Xamidimura Scale=2.512
+DELETE: ID=82294 Name=Pipirima Scale=2.198
+
+COLLISION GROUP
+----------------
+KEEP: ID=95648 Name=Albireo Scale=2.484
+DELETE: ID=95652 Name= Scale=1.324
+
+COLLISION GROUP
+----------------
+KEEP: ID=100020 Name=Dabih Scale=2.484
+DELETE: ID=100000 Name= Scale=0.780
+
+COLLISION GROUP
+----------------
+KEEP: ID=74912 Name= Scale=2.389
+DELETE: ID=74935 Name= Scale=0.713
+
+COLLISION GROUP
+----------------
+KEEP: ID=84711 Name= Scale=2.361
+DELETE: ID=84688 Name= Scale=0.629
+
+COLLISION GROUP
+----------------
+KEEP: ID=38062 Name=Azmidi Scale=2.321
+DELETE: ID=38038 Name= Scale=1.212
+
+COLLISION GROUP
+----------------
+KEEP: ID=20842 Name=Chamukuy Scale=2.288
+DELETE: ID=20833 Name= Scale=2.041
+
+COLLISION GROUP
+----------------
+KEEP: ID=50193 Name=Adhafera Scale=2.271
+DELETE: ID=50177 Name= Scale=0.859
+
+COLLISION GROUP
+----------------
+KEEP: ID=12673 Name=Kaffaljidhma Scale=2.248
+DELETE: ID=118166 Name= Scale=0.663
+
+COLLISION GROUP
+----------------
+KEEP: ID=99743 Name=Algedi Scale=2.187
+DELETE: ID=99706 Name= Scale=1.783
+
+COLLISION GROUP
+----------------
+KEEP: ID=27006 Name= Scale=2.181
+DELETE: ID=118392 Name= Scale=0.758
+
+COLLISION GROUP
+----------------
+KEEP: ID=42416 Name= Scale=2.176
+DELETE: ID=42415 Name= Scale=1.077
+DELETE: ID=42385 Name= Scale=1.290
+
+COLLISION GROUP
+----------------
+KEEP: ID=46518 Name= Scale=2.176
+DELETE: ID=118632 Name= Scale=1.587
+
+COLLISION GROUP
+----------------
+KEEP: ID=63411 Name= Scale=2.170
+DELETE: ID=63485 Name= Scale=0.870
+
+COLLISION GROUP
+----------------
+KEEP: ID=17805 Name=Atlas Scale=2.164
+DELETE: ID=17809 Name=Pleione Scale=1.363
+
+COLLISION GROUP
+----------------
+KEEP: ID=82477 Name= Scale=2.164
+DELETE: ID=82419 Name= Scale=1.559
+
+COLLISION GROUP
+----------------
+KEEP: ID=104549 Name= Scale=2.097
+DELETE: ID=119398 Name= Scale=0.595
+
+COLLISION GROUP
+----------------
+KEEP: ID=34389 Name= Scale=2.075
+DELETE: ID=34382 Name= Scale=1.010
+
+COLLISION GROUP
+----------------
+KEEP: ID=53099 Name= Scale=2.075
+DELETE: ID=53077 Name= Scale=0.685
+
+COLLISION GROUP
+----------------
+KEEP: ID=99356 Name= Scale=2.064
+DELETE: ID=99320 Name= Scale=1.503
+
+COLLISION GROUP
+----------------
+KEEP: ID=74148 Name= Scale=2.019
+DELETE: ID=74153 Name= Scale=0.999
+
+COLLISION GROUP
+----------------
+KEEP: ID=44120 Name= Scale=1.974
+DELETE: ID=118586 Name= Scale=0.730
+
+COLLISION GROUP
+----------------
+KEEP: ID=50809 Name= Scale=1.957
+DELETE: ID=50830 Name= Scale=0.730
+
+COLLISION GROUP
+----------------
+KEEP: ID=42984 Name= Scale=1.935
+DELETE: ID=42981 Name= Scale=0.506
+
+COLLISION GROUP
+----------------
+KEEP: ID=62803 Name= Scale=1.935
+DELETE: ID=62805 Name= Scale=1.346
+
+COLLISION GROUP
+----------------
+KEEP: ID=88327 Name= Scale=1.935
+DELETE: ID=119198 Name= Scale=0.831
+
+COLLISION GROUP
+----------------
+KEEP: ID=110645 Name= Scale=1.912
+DELETE: ID=110641 Name= Scale=0.657
+
+COLLISION GROUP
+----------------
+KEEP: ID=20583 Name= Scale=1.834
+DELETE: ID=20590 Name= Scale=1.240
+
+COLLISION GROUP
+----------------
+KEEP: ID=93530 Name= Scale=1.823
+DELETE: ID=119259 Name= Scale=1.391
+
+COLLISION GROUP
+----------------
+KEEP: ID=102201 Name= Scale=1.800
+DELETE: ID=102200 Name= Scale=1.307
+
+COLLISION GROUP
+----------------
+KEEP: ID=75182 Name=Alkalurops Scale=1.778
+DELETE: ID=75187 Name= Scale=0.545
+
+COLLISION GROUP
+----------------
+KEEP: ID=64037 Name=Diadem Scale=1.772
+DELETE: ID=118869 Name= Scale=1.296
+
+COLLISION GROUP
+----------------
+KEEP: ID=84147 Name=Guniibuu Scale=1.767
+DELETE: ID=119135 Name= Scale=1.352
+
+COLLISION GROUP
+----------------
+KEEP: ID=118742 Name=Alula Australis Scale=1.767
+DELETE: ID=118743 Name= Scale=1.503
+
+COLLISION GROUP
+----------------
+KEEP: ID=91684 Name= Scale=1.761
+DELETE: ID=91686 Name= Scale=0.982
+
+COLLISION GROUP
+----------------
+KEEP: ID=2478 Name= Scale=1.750
+DELETE: ID=2479 Name= Scale=1.654
+
+COLLISION GROUP
+----------------
+KEEP: ID=16294 Name= Scale=1.750
+DELETE: ID=16299 Name= Scale=0.932
+
+COLLISION GROUP
+----------------
+KEEP: ID=52481 Name= Scale=1.699
+DELETE: ID=52443 Name= Scale=1.133
+
+COLLISION GROUP
+----------------
+KEEP: ID=104520 Name= Scale=1.688
+DELETE: ID=119397 Name= Scale=1.167
+
+COLLISION GROUP
+----------------
+KEEP: ID=106967 Name= Scale=1.677
+DELETE: ID=119433 Name= Scale=0.780
+
+COLLISION GROUP
+----------------
+KEEP: ID=86347 Name=Dziban Scale=1.632
+DELETE: ID=86353 Name= Scale=0.937
+
+COLLISION GROUP
+----------------
+KEEP: ID=26172 Name= Scale=1.626
+DELETE: ID=26203 Name= Scale=1.257
+
+COLLISION GROUP
+----------------
+KEEP: ID=91639 Name= Scale=1.621
+DELETE: ID=91633 Name= Scale=1.576
+
+COLLISION GROUP
+----------------
+KEEP: ID=92654 Name=Alya Scale=1.604
+DELETE: ID=92659 Name= Scale=1.402
+
+COLLISION GROUP
+----------------
+KEEP: ID=35266 Name= Scale=1.587
+DELETE: ID=35309 Name= Scale=1.329
+
+COLLISION GROUP
+----------------
+KEEP: ID=79805 Name= Scale=1.570
+DELETE: ID=79815 Name= Scale=1.240
+
+COLLISION GROUP
+----------------
+KEEP: ID=104184 Name= Scale=1.559
+DELETE: ID=104201 Name= Scale=0.791
+
+COLLISION GROUP
+----------------
+KEEP: ID=114013 Name= Scale=1.554
+DELETE: ID=119548 Name= Scale=0.887
+
+COLLISION GROUP
+----------------
+KEEP: ID=24983 Name= Scale=1.548
+DELETE: ID=24967 Name= Scale=1.010
+
+COLLISION GROUP
+----------------
+KEEP: ID=88131 Name= Scale=1.520
+DELETE: ID=119195 Name= Scale=1.257
+
+COLLISION GROUP
+----------------
+KEEP: ID=100701 Name= Scale=1.520
+DELETE: ID=100714 Name= Scale=0.522
+
+COLLISION GROUP
+----------------
+KEEP: ID=47623 Name= Scale=1.514
+DELETE: ID=118645 Name= Scale=1.055
+
+COLLISION GROUP
+----------------
+KEEP: ID=103684 Name= Scale=1.492
+DELETE: ID=119388 Name= Scale=0.550
+
+COLLISION GROUP
+----------------
+KEEP: ID=12357 Name= Scale=1.486
+DELETE: ID=118164 Name= Scale=1.055
+
+COLLISION GROUP
+----------------
+KEEP: ID=35115 Name= Scale=1.486
+DELETE: ID=35118 Name= Scale=0.819
+
+COLLISION GROUP
+----------------
+KEEP: ID=42607 Name= Scale=1.486
+DELETE: ID=42596 Name= Scale=1.116
+
+COLLISION GROUP
+----------------
+KEEP: ID=73467 Name= Scale=1.486
+DELETE: ID=119003 Name= Scale=0.853
+
+COLLISION GROUP
+----------------
+KEEP: ID=37191 Name= Scale=1.481
+DELETE: ID=37223 Name= Scale=0.965
+
+COLLISION GROUP
+----------------
+KEEP: ID=119058 Name=Graffias Scale=1.481
+DELETE: ID=119059 Name= Scale=1.391
+
+COLLISION GROUP
+----------------
+KEEP: ID=85567 Name= Scale=1.469
+DELETE: ID=85557 Name= Scale=1.453
+
+COLLISION GROUP
+----------------
+KEEP: ID=58309 Name= Scale=1.458
+DELETE: ID=58345 Name= Scale=0.506
+
+COLLISION GROUP
+----------------
+KEEP: ID=23780 Name= Scale=1.441
+DELETE: ID=118351 Name= Scale=0.999
+
+COLLISION GROUP
+----------------
+KEEP: ID=83351 Name= Scale=1.441
+DELETE: ID=119127 Name=Alrakis Scale=1.038
+
+COLLISION GROUP
+----------------
+KEEP: ID=99451 Name= Scale=1.430
+DELETE: ID=99458 Name= Scale=0.511
+
+COLLISION GROUP
+----------------
+KEEP: ID=26155 Name= Scale=1.402
+DELETE: ID=26170 Name= Scale=1.402
+DELETE: ID=26156 Name= Scale=1.318
+
+COLLISION GROUP
+----------------
+KEEP: ID=75083 Name= Scale=1.397
+DELETE: ID=119020 Name= Scale=0.853
+
+COLLISION GROUP
+----------------
+KEEP: ID=78804 Name=Marsic Scale=1.391
+DELETE: ID=78805 Name= Scale=0.691
+
+COLLISION GROUP
+----------------
+KEEP: ID=61225 Name= Scale=1.374
+DELETE: ID=61222 Name= Scale=0.511
+
+COLLISION GROUP
+----------------
+KEEP: ID=15181 Name= Scale=1.369
+DELETE: ID=15156 Name= Scale=0.573
+
+COLLISION GROUP
+----------------
+KEEP: ID=74549 Name= Scale=1.369
+DELETE: ID=74521 Name= Scale=0.976
+
+COLLISION GROUP
+----------------
+KEEP: ID=2572 Name= Scale=1.352
+DELETE: ID=117996 Name= Scale=0.831
+
+COLLISION GROUP
+----------------
+KEEP: ID=56076 Name= Scale=1.352
+DELETE: ID=56083 Name= Scale=1.324
+
+COLLISION GROUP
+----------------
+KEEP: ID=81046 Name= Scale=1.352
+DELETE: ID=81044 Name= Scale=1.094
+
+COLLISION GROUP
+----------------
+KEEP: ID=40206 Name= Scale=1.341
+DELETE: ID=40209 Name= Scale=0.769
+
+COLLISION GROUP
+----------------
+KEEP: ID=77869 Name= Scale=1.313
+DELETE: ID=77870 Name= Scale=1.060
+
+COLLISION GROUP
+----------------
+KEEP: ID=84368 Name= Scale=1.313
+DELETE: ID=84367 Name= Scale=0.500
+
+COLLISION GROUP
+----------------
+KEEP: ID=38273 Name= Scale=1.301
+DELETE: ID=118505 Name= Scale=0.735
+
+COLLISION GROUP
+----------------
+KEEP: ID=2756 Name= Scale=1.279
+DELETE: ID=117998 Name= Scale=0.606
+
+COLLISION GROUP
+----------------
+KEEP: ID=103879 Name= Scale=1.279
+DELETE: ID=103883 Name= Scale=0.803
+
+COLLISION GROUP
+----------------
+KEEP: ID=5725 Name=Revati Scale=1.273
+DELETE: ID=5731 Name= Scale=0.584
+
+COLLISION GROUP
+----------------
+KEEP: ID=23679 Name= Scale=1.268
+DELETE: ID=23688 Name= Scale=0.786
+
+COLLISION GROUP
+----------------
+KEEP: ID=103240 Name= Scale=1.257
+DELETE: ID=103237 Name= Scale=1.223
+
+COLLISION GROUP
+----------------
+KEEP: ID=110271 Name= Scale=1.234
+DELETE: ID=119491 Name= Scale=0.775
+
+COLLISION GROUP
+----------------
+KEEP: ID=85407 Name= Scale=1.217
+DELETE: ID=119159 Name= Scale=0.719
+
+COLLISION GROUP
+----------------
+KEEP: ID=5121 Name= Scale=1.206
+DELETE: ID=5122 Name= Scale=1.083
+
+COLLISION GROUP
+----------------
+KEEP: ID=40701 Name= Scale=1.206
+DELETE: ID=40718 Name= Scale=1.038
+
+COLLISION GROUP
+----------------
+KEEP: ID=45440 Name= Scale=1.178
+DELETE: ID=118619 Name= Scale=0.758
+
+COLLISION GROUP
+----------------
+KEEP: ID=62377 Name= Scale=1.178
+DELETE: ID=62366 Name= Scale=0.875
+
+COLLISION GROUP
+----------------
+KEEP: ID=67091 Name= Scale=1.133
+DELETE: ID=67079 Name= Scale=0.875
+
+COLLISION GROUP
+----------------
+KEEP: ID=82424 Name= Scale=1.133
+DELETE: ID=82439 Name= Scale=0.791
+DELETE: ID=119627 Name= Scale=0.578
+
+COLLISION GROUP
+----------------
+KEEP: ID=110432 Name= Scale=1.083
+DELETE: ID=119501 Name= Scale=0.713
+
+COLLISION GROUP
+----------------
+KEEP: ID=2935 Name= Scale=1.072
+DELETE: ID=118001 Name= Scale=0.606
+
+COLLISION GROUP
+----------------
+KEEP: ID=22478 Name= Scale=1.066
+DELETE: ID=22481 Name= Scale=0.595
+
+COLLISION GROUP
+----------------
+KEEP: ID=63535 Name= Scale=1.066
+DELETE: ID=118862 Name= Scale=0.606
+
+COLLISION GROUP
+----------------
+KEEP: ID=90688 Name= Scale=1.016
+DELETE: ID=90687 Name= Scale=0.657
+
+COLLISION GROUP
+----------------
+KEEP: ID=104102 Name= Scale=1.016
+DELETE: ID=119390 Name= Scale=0.606
+
+COLLISION GROUP
+----------------
+KEEP: ID=9002 Name= Scale=1.004
+DELETE: ID=8982 Name= Scale=0.892
+
+COLLISION GROUP
+----------------
+KEEP: ID=97655 Name= Scale=0.999
+DELETE: ID=97656 Name= Scale=0.556
+
+COLLISION GROUP
+----------------
+KEEP: ID=107587 Name= Scale=0.999
+DELETE: ID=107586 Name= Scale=0.517
+
+COLLISION GROUP
+----------------
+KEEP: ID=87864 Name= Scale=0.976
+DELETE: ID=87855 Name= Scale=0.769
+
+COLLISION GROUP
+----------------
+KEEP: ID=7736 Name=p Eridani Scale=0.965
+DELETE: ID=118084 Name=p Eridani Scale=0.943
+
+COLLISION GROUP
+----------------
+KEEP: ID=17537 Name=Asterope Scale=0.965
+DELETE: ID=17546 Name= Scale=0.590
+
+COLLISION GROUP
+----------------
+KEEP: ID=51413 Name= Scale=0.965
+DELETE: ID=51412 Name= Scale=0.808
+
+COLLISION GROUP
+----------------
+KEEP: ID=97505 Name= Scale=0.965
+DELETE: ID=97508 Name= Scale=0.550
+
+COLLISION GROUP
+----------------
+KEEP: ID=88540 Name= Scale=0.948
+DELETE: ID=88541 Name= Scale=0.926
+
+COLLISION GROUP
+----------------
+KEEP: ID=94042 Name= Scale=0.915
+DELETE: ID=119271 Name= Scale=0.511
+
+COLLISION GROUP
+----------------
+KEEP: ID=49962 Name= Scale=0.881
+DELETE: ID=49981 Name= Scale=0.646
+
+COLLISION GROUP
+----------------
+KEEP: ID=96588 Name= Scale=0.836
+DELETE: ID=96594 Name= Scale=0.691
+
+COLLISION GROUP
+----------------
+KEEP: ID=81664 Name= Scale=0.752
+DELETE: ID=81653 Name= Scale=0.713
+
+COLLISION GROUP
+----------------
+KEEP: ID=52369 Name= Scale=0.691
+DELETE: ID=52386 Name= Scale=0.590
+
+COLLISION GROUP
+----------------
+KEEP: ID=37924 Name= Scale=0.657
+DELETE: ID=37929 Name= Scale=0.618
+
+COLLISION GROUP
+----------------
+KEEP: ID=38925 Name= Scale=0.634
+DELETE: ID=38928 Name= Scale=0.623
+
+COLLISION GROUP
+----------------
+KEEP: ID=24765 Name= Scale=0.623
+DELETE: ID=24767 Name= Scale=0.534
+
+COLLISION GROUP
+----------------
+KEEP: ID=108019 Name= Scale=0.601
+DELETE: ID=108033 Name= Scale=0.522
+
+COLLISION GROUP
+----------------
+KEEP: ID=76368 Name= Scale=0.578
+DELETE: ID=76367 Name= Scale=0.517
+
+COLLISION GROUP
+----------------
+KEEP: ID=67195 Name= Scale=0.517
+DELETE: ID=118923 Name= Scale=0.511
+

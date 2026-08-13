@@ -891,7 +891,7 @@ MonoBehaviour:
   timeSpeedHours: 0
   timeGMTOffset: 8
   numberOfDaysFromNow: 0
-  brightestScale: 10
+  brightestScale: 5
   dimmestScale: 0.5
   dateText: {fileID: 0}
   moonPrefab: {fileID: 0}
